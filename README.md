@@ -50,7 +50,33 @@ sudo service mongod stop
 _________________________________________________________________________________
 ### COLDFUSION
 
+#### Webservice
 
+* Configurar **https**
+
+File: cfusion\wwwroot\WEB-INF\axis2.xml
+
+**original**
+```xml
+<transportReceiver name="http"
+                       class="coldfusion.xml.rpc.CFAxisServletListener"/>
+```
+
+**changed**
+```xml
+ <transportReceiver name="http" class="coldfusion.xml.rpc.CFAxisServletListener">
+   <parameter name="port">80</parameter>
+ </transportReceiver>
+
+
+ <transportReceiver name="https" class="coldfusion.xml.rpc.CFAxisServletListener">
+   <parameter name="port">443</parameter>
+ </transportReceiver>
+```
+
+#### Schedule
+
+File: cfusion\lib\neo-cron.xml
 _________________________________________________________________________________
 ### SQL
 https://docs.microsoft.com/pt-br/sql/linux/quickstart-install-connect-ubuntu
