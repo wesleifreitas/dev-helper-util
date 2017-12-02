@@ -170,3 +170,15 @@ https://askubuntu.com/questions/53310/is-it-possible-to-install-zsnes-emulator-f
 https://askubuntu.com/questions/60094/compile-32-bit-on-64-bitsystem
 ./configure --build=x86_64-pc-linux-gnu --host=i686-pc-linux-gnu
 https://www.vivaolinux.com.br/topico/C-C++/instalando-SDL-no-Ubuntu
+
+### PPA
+
+**Listar:**
+
+```bash
+grep -RoPish "ppa.launchpad.net/[^/]+/[^/ ]+" /etc/apt | sort -u | sed -r 's/\.[^/]+\//:/'
+```
+
+**Remover**
+
+http://www.diolinux.com.br/2016/07/como-remover-programas-instalados-via-ppa-ubuntu.html
