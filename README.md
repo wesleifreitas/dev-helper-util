@@ -146,9 +146,9 @@ Nota: Os ficheiros ca.crt, client1.crt e client.crt foram criado no servidor e d
 
 Depois de realizada a configuração basta que que iniciem o serviço carregado a configuração realizada anteriormente.
 
-openvpn –config /etc/openvpn/client.conf
-sudo openvpn --config /etc/openvpn/client.conf
-sudo openvpn --config /etc/openvpn/client/seeaway.config
+cd /etc/openvpn/client
+
+sudo openvpn --config [*.config]
 
 
 https://pplware.sapo.pt/linux/openvpn-como-configurar-um-cliente-vpn-no-ubuntu/
