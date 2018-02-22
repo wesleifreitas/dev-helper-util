@@ -154,6 +154,7 @@ sudo openvpn --config [*.config]
 https://pplware.sapo.pt/linux/openvpn-como-configurar-um-cliente-vpn-no-ubuntu/
 https://www.qnap.com/pt-pt/how-to/faq/article/como-se-conectar-ao-servidor-openvpn-via-arquivo-de-configura%C3%A7%C3%A3o-ovpn
 
+**Encerrar: sudo killall openvpn**
 
 _________________________________________________________________________________
 ### ZSNES - http://www.hardware.com.br/comunidade/zsnes-executar/1461137/
