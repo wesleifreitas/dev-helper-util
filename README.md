@@ -148,10 +148,11 @@ Depois de realizada a configuração basta que que iniciem o serviço carregado 
 
 cd /etc/openvpn/client
 
-sudo openvpn --config [*.config]
+sudo openvpn --config [*.config] ou sudo openvpn [*.ovpn]
 
 
 https://pplware.sapo.pt/linux/openvpn-como-configurar-um-cliente-vpn-no-ubuntu/
+
 https://www.qnap.com/pt-pt/how-to/faq/article/como-se-conectar-ao-servidor-openvpn-via-arquivo-de-configura%C3%A7%C3%A3o-ovpn
 
 **Encerrar: sudo killall openvpn**
