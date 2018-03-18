@@ -35,6 +35,32 @@ then the problem was solved temporally but after a restart the module will be lo
 
 Add to **/etc/modprobe.d/blacklist.conf** the following line blacklist **acer-wmi** and done.
 
+### GIT
+
+**Editar config**
+
+```bash
+git config --global --edit
+
+git config --global -e
+git config --system -e
+git config --local -e
+```
+
+**Associar editor default**
+
+- Linux
+```
+git config --global core.editor "subl -n -w"
+git config --global core.editor "code -w"
+```
+https://help.github.com/articles/associating-text-editors-with-git/
+
+- Windows
+```bash
+git config --global core.editor "'code' -w"
+```
+
 _________________________________________________________________________________
 ### INSTALAR PACOTE DEB
 dpkg -i file.deb
