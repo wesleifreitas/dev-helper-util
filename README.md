@@ -184,6 +184,13 @@ https://www.qnap.com/pt-pt/how-to/faq/article/como-se-conectar-ao-servidor-openv
 **Encerrar: sudo killall openvpn**
 
 _________________________________________________________________________________
+### FTP FileZilla
+
+```bash
+sudo apt-get install filezilla
+```
+
+_________________________________________________________________________________
 ### ZSNES - http://www.hardware.com.br/comunidade/zsnes-executar/1461137/
 cd Documentos/snes/zsnes142/
 LD_LIBRARY_PATH="/home/weslei/Documentos/zsnes142:$LD_LIBRARY_PATH" ./zsnes
