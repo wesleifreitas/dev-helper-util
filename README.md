@@ -1,5 +1,25 @@
 # dev-helper-util
 
+### Gnome-Tweak-Tool
+
+O Gnome-Tweaks permite que você acesse uma variedade de configurações e opções que o painel padrão do Ubuntu não possui. Usando o “Ajustes” você pode:
+
+Alterar o tema de janelas e ícones
+Mover os botões da janela para a esquerda
+Ajustar o comportamento do mouse / trackpad
+Alterar as fontes do sistema
+Gerenciar extensões do GNOME
+Exibir a data ao lado da hora
+Exibir porcentagem da bateria (recomendado para notebooks)
+Mudar a posição dos botões das janela para o lado que quiser
+Alterar as fontes (tipo de letra)
+Exibir ou ocultar os ícones do Desktop
+Alternar entre áreas de trabalho estáticas ao invés de dinâmicas
+
+```bash
+sudo apt install gnome-tweak-tool
+```
+
 ### NOTEBOOK-MI
 
 #### WIFI
