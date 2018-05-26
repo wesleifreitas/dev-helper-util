@@ -237,3 +237,54 @@ grep -RoPish "ppa.launchpad.net/[^/]+/[^/ ]+" /etc/apt | sort -u | sed -r 's/\.[
 **Remover**
 
 http://www.diolinux.com.br/2016/07/como-remover-programas-instalados-via-ppa-ubuntu.html
+
+# WARSAW - Módo de segurança - Caixa
+
+https://linuxdicasesuporte.blogspot.com.br/2018/04/correcao-warsaw-para-o-seu-debian.html
+
+```bash
+sudo su
+```
+
+```bash
+cd /usr/local/lib/warsaw
+```
+
+```bash
+rm ld-linux-x86-64.so.2 ; ln -s /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+```
+
+```bash
+rm libc.so.6 ; ln -s /lib/x86_64-linux-gnu/libc.so.6
+```
+
+```bash
+rm libpthread.so.0 ; ln -s /lib/x86_64-linux-gnu/libpthread.so.0
+```
+
+```bash
+rm libdl.so.2 ; ln -s /lib/x86_64-linux-gnu/libdl.so.2
+```
+
+```bash
+chattr +a /usr/local/lib/warsaw/
+```
+
+```bash
+systemctl enable warsaw
+```
+
+```bash
+systemctl start warsaw
+```
+
+```bash
+/usr/local/bin/warsaw/core
+```
+
+Reinicie o computador
+
+```bash
+ps -ef | grep warsaw
+```
+
