@@ -1,5 +1,17 @@
 # dev-helper-util
 
+### Mount error: “unknown filesystem type 'exfat'”
+
+
+You get this error because the exfat filesystem is not installed in Ubuntu by default. exFAT is proprietary and patented by Microsoft.
+
+Ubuntu 13.10 or higher
+Since Ubuntu 13.10, this package is in the main repository. Just install exfat-fuse and exfat-utils:
+
+```bash
+sudo apt-get install exfat-fuse exfat-utils
+```
+
 ### Gnome-Tweak-Tool
 
 O Gnome-Tweaks permite que você acesse uma variedade de configurações e opções que o painel padrão do Ubuntu não possui. Usando o “Ajustes” você pode:
