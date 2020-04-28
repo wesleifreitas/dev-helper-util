@@ -311,9 +311,11 @@ sudo apt install dconf-editor
 org > gnome > shell > extensions > dash-to-dock
 https://github.com/wesleifreitas/dev-helper-util/blob/master/images/dconf.png
 
+ ```bash
 $ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 $ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 $ gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
 $ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
 $ gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
+```
 
