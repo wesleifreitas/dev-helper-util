@@ -319,3 +319,10 @@ $ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
 $ gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
 ```
 
+# Ajustar o cedilha errado (ć) no Ubuntu Linux
+
+Editar o arquivo /etc/environment e adicionar no final dele a seguinte linha:
+
+```
+GTK_IM_MODULE=cedilla
+```
