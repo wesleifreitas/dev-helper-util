@@ -326,3 +326,7 @@ Editar o arquivo /etc/environment e adicionar no final dele a seguinte linha:
 ```
 GTK_IM_MODULE=cedilla
 ```
+
+# VirtualBox
+
+Gateway padrão: 10.0.2.2
