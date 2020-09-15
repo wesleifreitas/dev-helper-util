@@ -330,3 +330,7 @@ GTK_IM_MODULE=cedilla
 # VirtualBox
 
 Gateway padrão: 10.0.2.2
+
+# Analisar boot
+
+systemd-analyze blame
