@@ -333,4 +333,6 @@ Gateway padrão: 10.0.2.2
 
 # Analisar boot
 
+```bash
 systemd-analyze blame
+```
