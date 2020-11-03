@@ -336,3 +336,9 @@ Gateway padrão: 10.0.2.2
 ```bash
 systemd-analyze blame
 ```
+
+# Chave base64 
+
+```bash
+echo -n conta:senha | base64
+```
