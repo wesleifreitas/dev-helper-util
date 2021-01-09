@@ -342,3 +342,9 @@ systemd-analyze blame
 ```bash
 echo -n conta:senha | base64
 ```
+
+# Impressora 
+
+```bash
+sudo apt-get install printer-driver-escpr
+```
